@@ -1,0 +1,32 @@
+.debug .container,.debug .container-fluid{
+    background-color: white;
+    min-height: 40px;
+}
+
+.debug .row{
+    background-color: lightgrey;
+    min-height: 40px;
+}
+
+.debug .box{
+    min-height: 40px;
+    text-align: center;
+    background-color: blue;
+    padding: 10px;
+    border: solid 0.5px white;
+    color: white;
+}
+
+.green>.box{
+    background-color: green;
+    border: solid 0.5px blue;
+    font-size: 85%;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
